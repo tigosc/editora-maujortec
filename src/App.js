@@ -19,7 +19,7 @@ class App extends React.Component {
           <Routes>
             <Route exact path="/" render={Home} />
             <Route exact path="/frontend" render={() => <Frontend/>} />
-            <Route exact path="/programação" render={() => <Programacao/>} />
+            <Route exact path="/programacao" render={() => <Programacao/>} />
             <Route exact path="/design" render={() => <Design/>} />
             <Route exact path="/catalogo" render={(props) => <Catalogo/>} />
             <Route path="*" element={<NotFound />} />
